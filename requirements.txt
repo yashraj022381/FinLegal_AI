@@ -1,3 +1,4 @@
+--upgrade pip 
 streamlit
 langchain
 langchain-mistralai
@@ -6,4 +7,3 @@ streamlit==1.39.0
 langchain-core==0.3.12
 langchain-community==0.3.24
 langgraph==0.5.11  
---upgrade pip 
