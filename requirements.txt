@@ -1,9 +1,5 @@
---upgrade pip 
-streamlit
-langchain
-langchain-mistralai
-python-dotenv
-streamlit==1.39.0
-langchain-core
-langchain-community
-langgraph==0.5.11  
+gradio==4.16.0
+pandas
+joblib
+scikit-learn
+pip freeze
