@@ -93,6 +93,12 @@ iv). Open the local URL in your browser (e.g., http://127.0.0.1:7860)
 6. ## Live Demo
    https://huggingface.co/spaces/yash9892/AI_Fraud_Detection
 
+7. ## Features you can test live:
+   - Adjust anomaly score threshold
+   - See rule-based warnings
+   - View transaction history table
+   - Clear history button
+
 ## Future Improvements
 
 - Integrate with real API for live data
