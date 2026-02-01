@@ -1,14 +1,18 @@
-1. # AI_Fraud_Detection
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+[![Gradio](https://img.shields.io/badge/UI-Gradio-orange)](https://gradio.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+# AI_Fraud_Detection
 
 - A simple AI-powered app to detect credit card fraud using Isolation Forest (anomaly detection) and rule-based checks. Built with Gradio for an interactive UI.
 
-2. ## Features
+1. ## Features
 - Input transaction details (amount, hour, distance, international, PIN/chip use, merchant category)
 - ML-based anomaly detection
 - Rule-based warnings for suspicious patterns (high amount, strange time, international)
 - Adjustable anomaly threshold slider for sensitivity tuning
 
-3. ## Setup
+2. ## Setup
 i) Clone the repo:
     git clone https://github.com/yourusername/AI-Fraud-Detection.git
     cd AI-Fraud-Detection
@@ -25,18 +29,20 @@ iii). Run the app:
 
 iv). Open the local URL in your browser (e.g., http://127.0.0.1:7860)
 
-   ## Usage
-    - Enter transaction details
-    - Adjust threshold slider (lower = more sensitive to fraud)
-    - Click "Check for Fraud"
-    - See result, anomaly score, and any rule warnings
+3. ## Usage
+   - Enter transaction details
+   - Adjust threshold slider (lower = more sensitive to fraud)
+   - Click "Check for Fraud"
+   - See result, anomaly score, and any rule warnings
 
-   ## Screenshots
+4. ## Screenshots
+   
    - Overview UI
      ![IMG_20260201_142715738](https://github.com/user-attachments/assets/1b58e61b-6aaa-478e-a4c3-9969a8a4217c)
      ![IMG_20260201_142618501](https://github.com/user-attachments/assets/c0ba1f5c-9d03-45f0-beb3-55b1e2937735)
 
-     Test Name
+   - Test Name
+     
      (1) Normal Daytime low amount:
          ![IMG_20260201_143141910_HDR](https://github.com/user-attachments/assets/ce423922-dcc4-4bfe-9199-977781233409)
          ![IMG_20260201_143154839_HDR](https://github.com/user-attachments/assets/3aa4022c-0cbf-47ad-bc15-795cc1b8704f)
@@ -44,7 +50,6 @@ iv). Open the local URL in your browser (e.g., http://127.0.0.1:7860)
      (2) Normal nighttime low amount:
          ![IMG_20260201_143559665_HDR](https://github.com/user-attachments/assets/cd5b3eab-328e-4da3-b056-4379a6de987d)
          ![IMG_20260201_143615525_HDR](https://github.com/user-attachments/assets/76948461-967c-4060-8081-51ba3894511a)
-
 
      (3) Rule suspicious - strange time:
          ![IMG_20260201_144826656_HDR](https://github.com/user-attachments/assets/3fef7316-d743-42ef-bd3d-52b9df117b98)
