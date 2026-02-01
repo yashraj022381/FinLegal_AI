@@ -91,7 +91,7 @@ iv). Open the local URL in your browser (e.g., http://127.0.0.1:7860)
    - Joblib
   
 6. ## Live Demo
-    
+   https://huggingface.co/spaces/yash9892/AI_Fraud_Detection
 
 ## Future Improvements
 
